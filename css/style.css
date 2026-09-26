@@ -45,7 +45,7 @@
   .btn-amber:hover{background:var(--amber-dark);}
   .btn-outline{border-color:var(--teal-deep);color:var(--teal-deep);background:transparent;}
   .btn-outline:hover{background:var(--teal-deep);color:var(--white);}
- 
+
   /* ---------- Header ---------- */
   header{
     position:sticky;top:0;z-index:50;
@@ -75,7 +75,7 @@
   @media (max-width:860px){
     .nav-links{display:none;}
   }
- 
+
   /* ---------- Hero ---------- */
   .hero{
     position:relative;
@@ -130,7 +130,7 @@
   @media (max-width:900px){
     .hero-grid{grid-template-columns:1fr;}
   }
- 
+
   /* ---------- Section basics ---------- */
   section{padding:88px 0;}
   .section-head{max-width:56ch;margin-bottom:52px;}
@@ -138,7 +138,7 @@
   .kicker{
     font-size:0.85rem;font-weight:600;color:var(--sage);margin-bottom:10px;
   }
- 
+
   /* ---------- Services ---------- */
   .services{background:var(--white);}
   .service-list{
@@ -164,7 +164,7 @@
     .service-row{grid-template-columns:1fr;gap:8px;}
     .service-tag{justify-self:start;}
   }
- 
+
   /* ---------- Process ---------- */
   .process{background:var(--sand-warm);}
   .process-grid{
@@ -188,7 +188,7 @@
   @media (max-width:560px){
     .process-grid{grid-template-columns:1fr;}
   }
- 
+
   /* ---------- Coverage ---------- */
   .coverage{background:var(--white);}
   .coverage-grid{display:grid;grid-template-columns:0.9fr 1.1fr;gap:56px;align-items:start;}
@@ -204,7 +204,7 @@
   @media (max-width:860px){
     .coverage-grid{grid-template-columns:1fr;}
   }
- 
+
   /* ---------- Testimonials ---------- */
   .testimonials{background:var(--teal-deep);color:var(--sand);}
   .testimonials .section-head h2{color:var(--sand);}
@@ -224,7 +224,7 @@
   @media (max-width:860px){
     .quote-row{grid-template-columns:1fr;}
   }
- 
+
   /* ---------- Contact / form ---------- */
   .contact{background:var(--sand-warm);}
   .contact-grid{
@@ -239,7 +239,7 @@
     font-size:0.98rem;
   }
   .contact-detail span.label{color:var(--sage);font-weight:600;min-width:88px;}
- 
+
   form{
     background:var(--white);
     border:1px solid var(--line);
@@ -263,7 +263,7 @@
   @media (max-width:860px){
     .contact-grid{grid-template-columns:1fr;}
   }
- 
+
   /* ---------- Footer ---------- */
   footer{
     background:var(--ink);color:#B9C4BE;
@@ -279,4 +279,3 @@
     display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;
     padding-top:22px;font-size:0.82rem;color:#8A968F;
   }
- 
