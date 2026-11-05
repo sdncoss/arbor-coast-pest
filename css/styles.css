@@ -279,3 +279,18 @@
     display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;
     padding-top:22px;font-size:0.82rem;color:#8A968F;
   }
+
+  /* ---------- Legal pages ---------- */
+.legal{background:var(--white);padding:72px 0 96px;min-height:60vh;}
+.legal-wrap{max-width:780px;}
+.legal h1{font-size:clamp(2rem,4vw,2.8rem);margin-bottom:10px;}
+.legal-updated{font-size:0.88rem;color:var(--sage);margin-bottom:40px;}
+.legal h2{font-size:1.4rem;margin:36px 0 10px;}
+.legal p,.legal li{font-size:1rem;color:#33413B;margin-bottom:14px;line-height:1.65;}
+.legal ul,.legal ol{margin:0 0 14px 22px;}
+.legal a{color:var(--teal-mid);text-decoration:underline;}
+
+.legal-section{padding-top:24px;margin-top:24px;border-top:1px solid var(--line);}
+.legal-section:first-of-type{border-top:none;margin-top:8px;}
+.legal-part{font-size:2rem !important;margin-top:8px !important;}
+.legal{scroll-padding-top:90px;}
