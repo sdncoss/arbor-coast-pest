@@ -281,16 +281,17 @@
   }
 
   /* ---------- Legal pages ---------- */
-.legal{background:var(--white);padding:72px 0 96px;min-height:60vh;}
+.legal{background:var(--white);padding:72px 0 96px;min-height:60vh;scroll-padding-top:90px;}
 .legal-wrap{max-width:780px;}
 .legal h1{font-size:clamp(2rem,4vw,2.8rem);margin-bottom:10px;}
-.legal-updated{font-size:0.88rem;color:var(--sage);margin-bottom:40px;}
-.legal h2{font-size:1.4rem;margin:36px 0 10px;}
-.legal p,.legal li{font-size:1rem;color:#33413B;margin-bottom:14px;line-height:1.65;}
-.legal ul,.legal ol{margin:0 0 14px 22px;}
+.legal-updated{font-size:0.88rem;color:var(--sage);margin-bottom:28px;}
+.legal h2{font-size:1.35rem;margin:44px 0 16px;padding-top:28px;border-top:1px solid var(--line);}
+.legal-section{padding-top:24px;margin-top:40px;border-top:2px solid var(--teal-deep);}
+.legal h2.legal-part{font-size:2rem;margin:0 0 20px;padding-top:0;border-top:none;}
+.legal-section > h2.legal-part + p + h2{margin-top:36px;}
+.legal p{font-size:1rem;color:#33413B;line-height:1.7;margin:0 0 18px;}
+.legal ul{list-style:disc outside;margin:0 0 22px 0;padding-left:1.5rem;}
+.legal li{font-size:1rem;color:#33413B;line-height:1.7;margin:0 0 14px;padding-left:0.25rem;}
+.legal li::marker{color:var(--sage);}
+.legal li:last-child{margin-bottom:0;}
 .legal a{color:var(--teal-mid);text-decoration:underline;}
-
-.legal-section{padding-top:24px;margin-top:24px;border-top:1px solid var(--line);}
-.legal-section:first-of-type{border-top:none;margin-top:8px;}
-.legal-part{font-size:2rem !important;margin-top:8px !important;}
-.legal{scroll-padding-top:90px;}
